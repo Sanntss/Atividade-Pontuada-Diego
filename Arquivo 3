@@ -1,0 +1,34 @@
+programa {
+  funcao inicio() {
+
+ inteiro a, b, c
+ real soma, multiplicacao
+
+ escreva("Digite o a: ")
+ leia(a)
+
+ escreva("Digite o b: ")
+ leia(b)
+
+ se (a == b) {
+  soma = a + b
+ escreva("A soma dos numeros é : ", soma)
+ 
+ soma == c
+
+ escreva("\nTerceiro número igual : ", soma)
+}
+
+senao {
+
+  multiplicacao = a * b
+
+escreva("A Multiplicação dos números é: ", multiplicacao)
+  
+
+ multiplicacao == c
+
+ escreva("\nc: ", multiplicacao)
+}
+  }
+}
