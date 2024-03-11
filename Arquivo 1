@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+
+  real a, b, c 
+  real soma
+
+  escreva("\nDigite o a : ")
+  leia(a)
+
+  escreva("\nDigite o b : ")
+  leia(b)
+
+  escreva("\nDigite o c : ")
+  leia(c)
+
+  se (a + b < c) {
+    escreva("\nA soma é menor que o c.")
+  }
+  senao { 
+    escreva("\nO c é maior que a soma.")
+  }
+  }
+}
