@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+    
+real primeiraNota, segundaNota
+real soma, notaFinal
+inteiro media = 6
+inteiro recuperacao = 4
+
+escreva("Qual é a Primera Nota: ")
+leia(primeiraNota)
+
+escreva("Qual é a Segunda Nota: ")
+leia(segundaNota)
+
+soma= primeiraNota + segundaNota
+notaFinal= soma /2
+escreva("Nota final é: ", notaFinal)
+
+se (notaFinal>= media){
+  escreva("\nAprovado!")
+}
+  se (notaFinal>= recuperacao e notaFinal<media){
+    escreva("\nRecuperção!")
+  }
+  senao se (notaFinal< recuperacao){
+    escreva("\nAprovado!")
+  }
+  }
+}
